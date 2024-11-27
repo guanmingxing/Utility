@@ -18,7 +18,8 @@ package utility
 
 import chisel3._
 import chisel3.util._
-import freechips.rocketchip.diplomacy.{BundleBridgeNexusNode, LazyModule, LazyModuleImp}
+import org.chipsalliance.diplomacy.bundlebridge.BundleBridgeNexusNode
+import org.chipsalliance.diplomacy.lazymodule.{LazyModule, LazyModuleImp}
 import org.chipsalliance.cde.config.Parameters
 
 class ValidIOBroadcast[T <: Data]()(implicit p: Parameters) extends LazyModule {
