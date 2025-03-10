@@ -16,6 +16,9 @@
 
 package utility
 
+
+import org.chipsalliance.diplomacy.bundlebridge.BundleBridgeNexusNode
+
 import chisel3._
 import chisel3.util._
 import freechips.rocketchip.diplomacy.{BundleBridgeNexusNode, LazyModule, LazyModuleImp}
